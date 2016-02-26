@@ -1,0 +1,13 @@
+#PROCESSES
+ps auxv
+
+#FILES AND PERMISSIONS
+groups #see what groups you're at
+chmod g+r file; chmod go-r file;chmod 644 file
+ln -s target linkname
+file filename #gives information about file
+
+#COMPRESSING
+gunzip file.gz #GNU Zip archive
+gzip file
+tar cvf archive.tar file1 file2...
