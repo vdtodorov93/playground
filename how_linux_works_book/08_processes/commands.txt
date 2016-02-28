@@ -1,0 +1,14 @@
+top, htop
+lsof #lists open files and the processes using them.
+lsof -p pid
+strace cat /dev/null
+ltrace #shared library calls
+ps m
+time *command name* #time a command executes
+uptime #shows running time and load averages (as htop)
+/usr/bin/time cal > /dev/null # shows minor and major page faults
+ps -o pid,min_flt,maj_flt 20365 #shows page faults for process
+vmstat #monitoring tool (vmstat #seconds to report every few seconds)
+iostat #I/O monitoring
+iotop #another tool
+pidstat -p *pidnumber* *seconds* #refreshes information about the process with pidnumber every few seconds
