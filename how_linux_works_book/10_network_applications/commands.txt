@@ -1,0 +1,14 @@
+telnet www.wikipedia.org 80 #
+curl --trace-ascii trace_file http://www.wikipedia.org/
+lsof -i #programs listening on ports
+lsof -i:port
+lsof -iTCP:80 #connections on TCP port 80
+lsof -iTCP -sTCP:LISTEN #filter by connection status
+
+tcpdump
+tcpdump udp or port 80 #UDP packets or web packets
+netcat
+netcat -l -p port_number #listne on specific port
+nmap host # scan
+rpcinfo -p localhost #show rpc services (remote procedure call)
+lsof -U # lists Unix domain sockets
