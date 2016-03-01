@@ -1,0 +1,10 @@
+echo "$PATH" #returns the variable
+echo '$PATH' #returns the string
+$1 $2 #variables
+$#   #number of variables passed to script
+shift # $1 = $2, $2 = $3... delete last
+$@   #all arguments
+$0   # script name
+$$   #process id
+$?   #exit code of last command
+
