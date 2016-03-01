@@ -1,0 +1,29 @@
+ifconfig
+ip
+route -n #show routing table
+ping *ip*
+traceroute *host* #shows path to host. -n option disables hostname lookups.
+host www.example.com # return ipv4 ipv6 ip addresses of host
+host *ip* #returns hostname
+ethtool
+#ifconfig interface address netmask mask
+#route add default gw gw-address
+#route del -net default
+nm-tool
+nmcli
+/etc/hosts
+########
+netstat
+-n disable hostname
+-t limit to TCP
+-l listening ports
+-c close wait
+
+cat /etc/services #show ports
+iptables -L #shows policies
+iptables -A INPUT -s 192.168.34.63 -j DROP #drops packets from the given ip
+iptables -A INPUT -s 192.168.34.0/24 -p tcp --destination-port 25 -j DROP #drop packets to smtp(port 25) from all hosts in the given subnet
+
+arp -n #see mac to ip mappings
+iw dev wlan0 scan # shows networks
+iw dev wlan0 link #details about current wifi connection
