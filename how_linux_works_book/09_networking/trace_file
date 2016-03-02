@@ -1,0 +1,697 @@
+== Info: Hostname was NOT found in DNS cache
+== Info:   Trying 194.153.145.104...
+== Info: Connected to www.abv.bg (194.153.145.104) port 80 (#0)
+=> Send header, 74 bytes (0x4a)
+0000: GET / HTTP/1.1
+0010: User-Agent: curl/7.35.0
+0029: Host: www.abv.bg
+003b: Accept: */*
+0048: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+== Info: Server nginx is not blacklisted
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Tue, 01 Mar 2016 12:10:00 GMT
+<= Recv header, 39 bytes (0x27)
+0000: Content-Type: text/html;charset=UTF-8
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 25 bytes (0x19)
+0000: Content-Language: en-US
+<= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+<= Recv header, 25 bytes (0x19)
+0000: Cache-Control: no-cache
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 1178 bytes (0x49a)
+0000: 1f65
+0006: <!DOCTYPE html>
+0017: <html lang="bg">
+0029: <head>
+0031: <meta charset="utf-8" />
+004b: <title>...... ........</title>
+006b: <meta name="description" content="......-................ ......
+00ab: .............. ........ .. ................ .. ...... 3 500 000 
+00eb: .............. ..............! ...... ........ .... ........ 10G
+012b: B ........................, POP3 .. SMTP ............, .........
+016b: ... .... ........, ...................... ............." />
+01a8: <link href="http://img.abv.bg/favicon.ico" rel="shortcut icon" /
+01e8: > 
+01ec: <link rel="stylesheet" href="css/styles_20160106.css" />
+0226: <link rel="chrome-webstore-item" href="https://chrome.google.com
+0266: /webstore/detail/cpbekonjicgkldkmopnamgglbfaiojje" />
+029d: <script type="text/javascript" src="js/jquery-1.8.2.min.js"></sc
+02dd: ript>
+02e4: <script type="text/javascript" src="js/jquery-ui-1.8.24.custom.m
+0324: in.js"></script>
+0336: <script type="text/javascript" src="js/interface_base.js?v=14568
+0376: 34200426"></script>
+038b: <script type="text/javascript">
+03ac:   var currentTime = 1456834200426;
+03d0: </script>
+03db: <!--[if lt IE 9]>
+03ee: <script src="js/html5.js"></script>
+0413: <![endif]-->
+0421: <!--[if IE 6]><link href="css/ie6_only_style.css" rel="styleshee
+0461: t" type="text/css" media="all" /><![endif]-->
+0490: <script ty
+<= Recv data, 1460 bytes (0x5b4)
+0000: pe="text/javascript">
+0017:  sas_tmstp=Math.round(Math.random()*10000000000);sas_masterflag=
+0057: 1;
+005b:  function SmartAdServer(sas_pageid,sas_formatid,sas_target) {
+009a:  if (sas_masterflag==1) {sas_masterflag=0;sas_master='M';} else 
+00da: {sas_master='S';};
+00ee:  document.write('<scr'+'ipt src="http://diff3.smartadserver.com/
+012e: call/pubj/' + sas_pageid + '/' + sas_formatid + '/' + sas_master
+016e:  + '/' + sas_tmstp + '/' + escape(sas_target) + '?"></scr'+'ipt>
+01ae: ');
+01b3:  }
+01b7: </script>
+01c2: 
+01c4: </head>
+01cd: <body>
+01d5: <!--WRAPPER-->
+01e5: <div id="chromeExt" class="fasha">
+0209:   <div class="left">
+021f:     <a href="https://chrome.google.com/webstore/detail/cpbekonji
+025f: cgkldkmopnamgglbfaiojje" target="_blank" class="moreinfo">
+029b:       <div class="logo"></div>
+02bb:       <div class="message">...... .............. .... Google Chr
+02fb: ome - ............ .. ...... .. .............. ....!</div>
+0337:       <span class="clear"></span>
+035a:     </a>
+0364:   </div>
+036e:   <div class="right">
+0385:    <a href="#" class="addon">....................</a>&nbsp;&nbsp
+03c5: ;|&nbsp;&nbsp;<a href="https://chrome.google.com/webstore/detail
+0405: /cpbekonjicgkldkmopnamgglbfaiojje" target="_blank">.......... ..
+0445: ..........</a>
+0455:   </div>
+045f:   <div class="close"></div>
+047c: </div>
+0484: <div id="explorerAddfav" class="fasha">
+04ad:   <div class="left">
+04c3:     <div class="moreinfo">
+04df:       <div class="logo"></div>
+04ff:       <div class="message">.............. ...... ........ ......
+053f: ........ ................!</div>
+0561:       <span class="clear"></span>
+0584:     </div>
+0590:   </div>
+059a:   <div class="close"></div
+<= Recv data, 1460 bytes (0x5b4)
+0000: >
+0003: </div>
+000b: <div id="ffExt" class="fasha">
+002b:   <div class="left">
+0041:     <a class="moreinfo" href="http://promo.abv.bg/ff_Ext/"  targ
+0081: et="_blank">
+008f:       <div class="logo"></div>
+00af:       <div class="message">...... .............. .... Firefox - 
+00ef: ............ .. ...... .. .............. ....!</div>
+0125:       <span class="clear"></span>
+0148:     </a>
+0152:   </div>
+015c:   <div class="close"></div>
+0179: </div>
+0181: <div id="wrapper">
+0195:   <!--TOP LINKS-->
+01a9:   <div id="toplinks">
+01c0:     <div class="left">    
+01dc:       <strong>...... ........</strong>
+0204:       &nbsp;|&nbsp;
+0219:       <a target="_blank" href="http://dox.bg">DOX</a>
+0250:       &nbsp;|&nbsp;
+0265:       <a href="http://apps.abv.bg" target="_blank">...... .... .
+02a5: ....... ............</a>
+02bf:     </div>
+02cb:     <a class="right" href="https://passport.abv.bg/app/profiles/
+030b: registration"><strong>...................... .. ......</strong><
+034b: /a>
+0350:   </div>
+035a:   <!--\TOP LINKS-->
+036f:   <!--SITE CONTENT-->
+0386:   <div id="siteContent">
+03a0:     <header id="mainHeader">
+03be:      <h1><a href="http://abv.bg">...... ........</a></h1>  
+03fb:      <!--SEARCH FORM-->
+0414:      <form name="GForm1" id="searchForm" method="get" action="ht
+0454: tp://search.abv.bg/search.php" target="_blank">
+0485:       <input type="text" value="" name="q" class="textField defa
+04c5: ultValue" title=".............. .. ................" />
+04fe:      <div id="powGoogle"></div>
+051f:     .<div class="searchButton"></div>
+0546:      </form>
+0554:      <!--\SEARCH FORM-->
+056e:      <a href="http://mobile.abv.bg/" target="_blank" id="mobileV
+05ae: ersion
+<= Recv data, 2920 bytes (0xb68)
+0000: ">.............. ....................</a>
+002b:     </header>
+003a:     <div id="rowAdv">..............</div>
+0065:     <form action="https://passport.abv.bg/app/profiles/servicelo
+00a5: gin" method="post" name="LogInForm" id="loginForm">
+00da:     <input type="hidden" name="host" value="mail01.abv.bg">
+0117:     <input type="hidden" name="service" value="mail">
+014e:       <div id="leftSide">
+0169:         <h2>........ .. ...... ........</h2>
+0197:         <label for="username">...... ....................</label
+01d7: >
+01da:         <input  type="text"  id="username" name="username" tabin
+021a: dex="1" class="textField"   />
+023a:         <label for="password">............</label>
+026e:         <input type="password" name="password" id="password" tab
+02ae: index="2"  class="textField"   />
+02d1:         <input type="submit" value="" name="loginBut" id="loginB
+0311: ut">
+0317:         <a href="https://passport.abv.bg/app/profiles/lostpass?q
+0357: str=http://www.abv.bg" id="lostPasswordLink">.................. 
+0397: ............</a>
+03a9:         <span class="clear"></span>
+03ce:         <div class="sepLine"></div>
+03f3:         .......... ............ .. ......?
+041f:         &nbsp;&nbsp;
+0435:         <a href="https://passport.abv.bg/app/profiles/registrati
+0475: on"><strong>...................... ....!</strong></a>
+04ac:       </div>
+04ba:       <div id="promoZone">
+04d6:           <a href="#" target="_blank"></a>
+0502:       </div>
+0510:     </form>
+051d:     <div id="banner_300x250">
+053c:     <div id="nonstandartBanHolder"></div>
+0567:     <script>
+0575:     function hide(){
+058b:     document.getElementById('banner300x250').contentWindow.hide(
+05cb: );
+05cf:     }
+05d6:     function show(){
+05ec:     document.getElementById('banner300x250').contentWindow.show(
+062c: );
+0630:     
+0636:     }
+063d:     </script>
+064c:     <iframe id="banner300x250" src="banner_300x250.html"  width=
+068c: "300" height="250" scrolling="no" frameborder="0"></iframe>
+06c9:     </div>
+06d5:     <br class="clear" />
+06ef:     <div style="position: relative; top: 25px;" id="bannerMiddle
+072f: Page"></div>
+073d:     <div id="rsHolder">
+0756:     <div id="resetSettings">.................... ...............
+0796: ............. ................ .... ..................</div>
+07d4:     <div class="close"></div>
+07f3:     </div>
+07ff:     <div id="blocks">
+0816:       <div class="column left">
+0837: <div class="block" id="1">.<section>.<header class="clearfix">.<
+0877: h1>.<a target="_blank" href="http://vesti.bg">............</a>.<
+08b7: /h1>.<a target="_blank" href="http://vesti.bg" class="siteLink">
+08f7: Vesti.bg</a><a target="_blank" href="http://www.vesti.bg/posledn
+0937: i-novini" class="lastNews">................ ............</a>.<di
+0977: v class="targetholder small">&nbsp;</div>.</header>.<script type
+09b7: ="text/javascript">.    var newsImages = [......  .      'http:/
+09f7: /a.img.abv.bg/home/vd26264eeef1ae091fb2fb78d7f95c054.jpg', .... 
+0a37:  .    ....  .      'http://a.img.abv.bg/home/v31fc196b87620d4cf6
+0a77: f7d8a5126a8d99.jpg', ....  .    ....  .      'http://a.img.abv.b
+0ab7: g/home/v704516dfe0333e6e84069a438b5c22d7.jpg', ....  .    ....  
+0af7: .      'http://a.img.abv.bg/home/v86dd02b1a98d65e546759564815f40
+0b37: c3.jpg', ....  .    ....  .      'http://a.img.ab
+<= Recv data, 1460 bytes (0x5b4)
+0000: v.bg/home/vbb2abc726dd5c34588f72cf88596264a.jpg', ....  .    ...
+0040: .  .      'http://a.img.abv.bg/home/v2ab759392683828375da5da8175
+0080: 3a481.jpg', ....  .    ....  .      'http://a.img.abv.bg/home/v0
+00c0: 3f766b087e4a8a0e0bebe0cac75c112.jpg' ....  .    .    ].  </scrip
+0100: t>.<div id="newsHolder">.<div id="newsImageHolder">.<a href="htt
+0140: p://vesti.bg/temi-v-razvitie/tema-gryckata-kriza/borisov-na-gyrc
+0180: ite-da-im-e-za-posledno-6050772" target="_blank">.<div class="im
+01c0: age" style="background:url('http://a.img.abv.bg/home/vd26264eeef
+0200: 1ae091fb2fb78d7f95c054.jpg') no-repeat top left;">&nbsp;.      <
+0240: /div>.</a>.</div>.<div class="newsLinks">.<a target="_blank" hre
+0280: f="http://vesti.bg/temi-v-razvitie/tema-gryckata-kriza/borisov-n
+02c0: a-gyrcite-da-im-e-za-posledno-6050772" data-id="6050772" class="
+0300: selected">..............: .... .............. .... .... .. .... 
+0340: ................</a><a target="_blank" href="http://vesti.bg/tem
+0380: i-v-razvitie/tema-bezhancite-ot-siriia/georgi-markov-chakat-ni-i
+03c0: znasilvaniia-i-atentati-6050760" data-id="6050760">............ 
+0400: .
+0403: 2000
+0409: ...........: .......... .... ........................ .. .......
+0449: .........</a><a target="_blank" href="http://vesti.bg/lyubopitno
+0489: /sveji/piramidite-v-bosna-fenomen-ili-izmama-video-6050769" data
+04c9: -id="6050769">.................... .. .......... - .............
+0509: . ...... ............ (..........)</a><a target="_blank" href="h
+0549: ttp://vesti.bg/istorii-koito-spodeliate/lica/vasko-vasilev-egati
+0589: -zalata-video-6050751" data-id="6050751">..
+<= Recv data, 1460 bytes (0x5b4)
+0000: ........ ..............: .......... ............! (..........)</
+0040: a><a target="_blank" href="http://vesti.bg/plateni-publikacii/te
+0080: ndenciite-za-2016-g.-pri-damskite-obuvki-6050710" data-id="60507
+00c0: 10" title=".............. ....................">................
+0100: ...... .... 2016 ... ...... ................ .................. 
+0140:  ..&nbsp;<img style="border:none" alt=".............. ..........
+0180: .........." src="http://img.abv.bg/AbvProductAds/pp_icon.gif"></
+01c0: a><a target="_blank" href="http://vesti.bg/plateni-publikacii/na
+0200: dprevara-za-otslabvane-raztyrsi-fejsbuk-6050621" data-id="605062
+0240: 1" title=".............. ....................">.................
+0280: ... .... .................... ................ .................
+02c0: ...  ..&nbsp;<img style="border:none" alt=".............. ......
+0300: .............." src="http://img.abv.bg/AbvProductAds/pp_icon.gif
+0340: "></a><a target="_blank" href="http://vesti.bg/plateni-publikaci
+0380: i/da-se-vpusnesh-v-nepoznati-vodi-6049819" data-id="6049819" tit
+03c0: le=".............. ....................">.... .... .............
+0400: . .. .................. ..............  ..&nbsp;<img style="bord
+0440: er:none" alt=".............. ...................." src="http://i
+0480: mg.abv.bg/AbvProductAds/pp_icon.gif"></a>.</div>.</div>.</sectio
+04c0: n>.</div>.<div class="block" id="2">.<style>....sportLinks a {he
+0500: ight: 24px;}.  </style>.<section>.<header class="clearfix">.<h1>
+0540: .<a target="_blank" href="http://gong.bg">..........</a>.</h1>.<
+0580: a target="_blank" href="http://gong.bg" class="siteL
+<= Recv data, 1460 bytes (0x5b4)
+0000: ink">Gong.bg</a><a target="_blank" href="http://gong.bg/chronolo
+0040: gy" class="lastNews">................ ............</a>.<div clas
+0080: s="targetholder small">&nbsp;</div>.</header>.<script type="text
+00c0: /javascript">.    var sportImages = [......  .      'http://b.im
+0100: g.abv.bg/home/s93703f42a19b1bfee1431516fbfd701f.jpg', ....  .   
+0140:  ....  .      'http://b.img.abv.bg/home/s9ac6674e52d52ed802352db
+0180: 04f0dd382.jpg', ....  .    ....  .      'http://b.img.abv.bg/hom
+01c0: e/s7ecf761b20bbe670bc57e02444fb70ab.jpg', ....  .    ....  .    
+0200:   'http://b.img.abv.bg/home/s024d0d08e1c0d41280970c9cfcdefc76.jp
+0240: g', ....  .    ....  .      'http://b.img.abv.bg/home/s9bc4d7eca
+0280: 2507683468e01b9adbf29fb.jpg', ....  .    ....  .      'http://b.
+02c0: img.abv.bg/home/sa88694ef57a8aadc02416662d46f6251.jpg', ....  . 
+0300:    ....  .      'http://b.img.abv.bg/home/s970cd158bc97f4f2c10d8
+0340: cbc4af7d8cf.jpg' ....  .    .    ].  </script>.<div id="sportHol
+0380: der">.<div id="sportImageHolder">.<a href="http://gong.bg/tenis/
+03c0: maje/yellow/snimka-gadzheto-na-grisho-otnovo-pryska-seksapil-366
+0400: 998" target="_blank">.<div class="image" style="background:url('
+0440: http://b.img.abv.bg/home/s93703f42a19b1bfee1431516fbfd701f.jpg')
+0480:  no-repeat top left;">&nbsp;.      </div>.</a>.</div>.<div class
+04c0: ="sportLinks">.<a target="_blank" href="http://gong.bg/tenis/maj
+0500: e/yellow/snimka-gadzheto-na-grisho-otnovo-pryska-seksapil-366998
+0540: " class="selected">............: .............. .... .......... 
+0580: ............ ............ ................</a><a tar
+<= Recv data, 1460 bytes (0x5b4)
+0000: get="_blank" href="http://gong.bg/football-sviat/drugi/v-sasht-o
+0040: tpisaha-ivan-ivanov-za-niu-iork-siti-367017">.. ...... .........
+0080: ....... ........ ............ .... .... ........ ........</a><a 
+00c0: target="_blank" href="http://gong.bg/bg-football/drugi/bez-flane
+0100: lka-s-3-na-iubileia-na-stoichkov-v-pamet-na-trifon-ivanov-367009
+0140: ">...... ................ .. ...3 .... ............ .... .......
+0180: ......... .. .......... .... ............ ............</a><a tar
+01c0: get="_blank" href="http://gong.bg/football-sviat/anglia/ti-si-na
+0200: -hod-glasuvaj-za-gol-na-kryga-367003">.... .... .... ......! ...
+0240: ............. .... ...... .... ..........!</a><a target="_blank"
+0280:  href="http://gong.bg/oshte-sport/zona-bez-sport/moshtnata-bilka
+02c0: -chudo-na-bylgariia-366946" title=".............. ..............
+0300: ......">.............. .......... ........ .... ................
+0340: ......  ..&nbsp;<img style="border:none" alt=".............. ...
+0380: ................." src="http://img.abv.bg/AbvProductAds/pp_icon.
+03c0: gif"></a><a target="_blank" href="http://gong.bg/oshte-sport/dru
+0400: gi-sportove/bylgarski-naturalni-produkti-za-myzhe-bez-analog-v-s
+0440: veta-365346" title=".............. ....................">.......
+0480: ........... .................. ................ .... ........ ..
+04c0: .... ............ .. ................  ..&nbsp;<img style="borde
+0500: r:none" alt=".............. ...................." src="http://im
+0540: g.abv.bg/AbvProductAds/pp_icon.gif"></a><a target="_blank" href=
+0580: "http://gong.bg/oshte-sport/zona-bez-sport/naj-efekt
+<= Recv data, 4380 bytes (0x111c)
+0000: ivnite-sredstva-sreshtu-kosopad-i-pyrhot-365116" title="........
+0040: ...... ....................">......-...................... .....
+0080: ........... .......... .............. .. ..................  ..&
+00c0: nbsp;<img style="border:none" alt=".............. ..............
+0100: ......" src="http://img.abv.bg/AbvProductAds/pp_icon.gif"></a>.<
+0140: /div>.</div>.</section>.</div>.<script type="text/javascript">. 
+0180:  var ednaList = [.{text: "........ ................ .... .......
+01c0: .", img: "http://img.abv.bg/home/eadf3b4b6a1c7856f7470894e870ee8
+0200: e4.jpg",url:"http://www.edna.bg/horoskopi/taro-kalendar-za-mart-
+0240: 4633400", paid:"no"},{text: "...... ..................: ........
+0280: ................ .... ........ ............", img: "http://img.a
+02c0: bv.bg/home/ee612f1c23e889187d71796a68d1db62a.jpg",url:"http://ww
+0300: w.edna.bg/kolonkata-na/iva-dojchinova-kompromisite-sa-losha-rabo
+0340: ta-4641774", paid:"no"},{text: ".................. .. ..........
+0380: ....", img: "http://img.abv.bg/home/e91b5051b370818eb45e8a1f9ab5
+03c0: 2a46c.jpg",url:"http://www.edna.bg/zdravoslovno/hrani/zhelatinyt
+0400: -e-polezen-4641775", paid:"no"},{text: ".............., ........
+0440: !", img: "http://img.abv.bg/home/e79f2435825e4499a8d9197d2c7e0aa
+0480: 3a.jpg",url:"http://www.edna.bg/svobodno-vreme/pochivka/zdravej-
+04c0: mart-4641773", paid:"no"},{text: ".............. ............ ..
+0500: .......... ............ .. ..........", img: "http://img.abv.bg/
+0540: home/e95c40cfa95df7e77e337be20a6efe39b.jpg",url:"http://www.edna
+0580: .bg/zdravoslovno/bio/domashni-lekove-protiv-belezi-i-strii-46375
+05c0: 11", paid:"no"},{text: "Kalapod ... ............ .......... ....
+0600: .......... ............", img: "http://img.abv.bg/home/e1c0e2189
+0640: a1dc0f6094b93c7d75837339.jpg",url:"http://www.edna.bg/plateni-pu
+0680: blikacii/kalapod-novata-marka-gradski-obuvki-4641762", paid:"yes
+06c0: "},{text: ".............. ............ .... ........ .... ... ..
+0700: .... ...... ................ ........", img: "http://img.abv.bg/
+0740: home/e3dae902abb19a78652c09081d7de8f5e.jpg",url:"http://www.edna
+0780: .bg/plateni-publikacii/krasiva-zashtita-za-doma-ni-boi-sys-sreby
+07c0: rni-joni-4641670", paid:"yes"},{text: ".......... .......... .. 
+0800: British School of Sofia", img: "http://img.abv.bg/home/e63c5fc29
+0840: dfba7a8ff69bfd9c771bf1f0.jpg",url:"http://www.edna.bg/plateni-pu
+0880: blikacii/dobre-doshli-v-british-school-of-sofia-4641593", paid:"
+08c0: yes"},{text: ".............. ............ .. ..............?", i
+0900: mg: "http://img.abv.bg/home/ef5c324c93784b5ae2fc57a4a9bbaf572.jp
+0940: g",url:"http://www.edna.bg/plateni-publikacii/gybichki-debnat-v-
+0980: basejna-4641526", paid:"yes"},{text: "...................... ...
+09c0: ................... .. ................ .............. .........
+0a00: . .......... .... 1-.... ........ .... ....-.......... .........
+0a40: .........", img: "http://img.abv.bg/home/e95257e8611fde758638d4a
+0a80: da45c7f276.jpg",url:"http://www.edna.bg/plateni-publikacii/ameri
+0ac0: kanski-universitet-v-bylgariia-obiaviava-ranen-priem-do-1-vi-mar
+0b00: t-za-po-dobri-stipendii-4641443", paid:"yes"}.  ].</script><div 
+0b40: class="block" id="3">.<section class="smallpad">.<header class="
+0b80: clearfix noborder">.<h1>.<a target="_blank" href="http://www.edn
+0bc0: a.bg">.... ............</a>.</h1>.<a target="_blank" href="http:
+0c00: //www.edna.bg" class="siteLink">Edna.bg</a>.<div class="targetho
+0c40: lder medium">&nbsp;</div>.</header>.<div id="ednaShow" class="sl
+0c80: ideShow">&nbsp;</div>.<div id="ednaControls" class="controls">.<
+0cc0: a href="javascript:;">1</a><a href="javascript:;">2</a><a href="
+0d00: javascript:;">3</a><a href="javascript:;">4</a><a href="j
+0d3b: 2000
+0d41: avascript:;">5</a>.</div>.<div class="DirectionsControl">.<butto
+0d81: n class="prev">&nbsp;</button><button class="next">&nbsp;</butto
+0dc1: n>.</div>.</section>.</div>.<div class="block" id="4">.<script t
+0e01: ype="text/javascript">.  var funList = [.{text: "........-......
+0e41: .. .......... ................ .... ................ &ndash; ...
+0e81: ........... 100 .................. .................... .... ...
+0ec1: ....... .. .................. .............. ...............  ",
+0f01:  type:"vic"},..{text: ".................. .................... .
+0f41: ..... .............. ............ ............?", img: "http://c
+0f81: .img.abv.bg/home/vb2a6eeca9e21d1f9d24562949c4e32bd9.jpg",url:"ht
+0fc1: tp://vbox7.com/play:07c01b3240",type:"movie"},{text: "359 ......
+1001: -...... .............. 2016", img: "http://c.img.abv.bg/home/vbd
+1041: c8f397293f5dfa1611d320b136376f8.jpg",url:"http://vbox7.com/play:
+1081: 3736c36a66",type:"movie"},{text: "............ .. .......... ...
+10c1: ........... ........", img: "http://c.img.abv.bg/home/vbdbf7aead
+1101: 20c3412296e92c7d29f25593.jp
+<= Recv data, 4380 bytes (0x111c)
+0000: g",url:"http://vbox7.com/play:1f4b195714",type:"movie"},{text: "
+0040: ...... 5 .................. .......... (22.02- 28.02)", img: "ht
+0080: tp://c.img.abv.bg/home/vb35125e7e3360aad24b412f56cfc84396.jpg",u
+00c0: rl:"http://vbox7.com/play:4c104d0f50",type:"movie"}.  ];  .</scr
+0100: ipt>.<section>.<header class="clearfix noborder">.<h1>.<a target
+0140: ="_blank" href="http://vbox7.com" id="funHeadLink">.............
+0180: .</a>.</h1>.<a target="_blank" href="http://vbox7.com" class="si
+01c0: teLink" id="funLink">Vbox7.com</a>.<div class="targetholder medi
+0200: um">..</div>.</header>.<div id="funShow" class="slideShow">..</d
+0240: iv>.<div id="funControls" class="controls">.<a href="javascript:
+0280: ;">1</a>.<a href="javascript:;">2</a>.<a href="javascript:;">3</
+02c0: a>.<a href="javascript:;">4</a>.<a href="javascript:;">5</a>.</d
+0300: iv>.<div class="DirectionsControl">.<button class="prev">..</but
+0340: ton>.<button class="next">..</button>.</div>.</section>.</div>
+0380:     </div>
+038c:     <div class="column right"> 
+03ad: <div class="block" id="5"> .<section>.  <header class="clearfix"
+03ed: >.  <h1><span>........ / ......</span></h1>.  <div class="target
+042d: holder large">&nbsp;</div>.  </header>.  <div id="dateTime">.  <
+046d: div id="clock"><canvas id="clockCanvas" width="112" height="112"
+04ad: ></canvas></div>.  <div id="dayInfo">.    <span id="dayContainer
+04ed: "></span>.    <div class="day"><span id="dateContainer"></span><
+052d: /div>.    <div class="monthyear"><span id="monthContainer"></spa
+056d: n><br /><span id="yearContainer"></span></div>.  </div>.  <div i
+05ad: d="calendar">.    <div id="dayrow">.    <div class="cell">..</di
+05ed: v>.    <div class="cell">..</div>.    <div class="cell">..</div>
+062d: .    <div class="cell">..</div>.    <div class="cell">..</div>. 
+066d:    <div class="cell weekend">..</div>.    <div class="cell last 
+06ad: weekend">..</div>.    </div>.    <span class="clear">&nbsp;</spa
+06ed: n>.    <div id="days"></div>.  </div>.  </div>.</section>.<scrip
+072d: t type="text/javascript">.  var months = ['............', '.....
+076d: ...........', '........', '..........', '......', '......', '...
+07ad: ...', '............', '..................', '................', 
+07ed: '..............', '................'];.  var days = ['..........
+082d: ..', '....................', '..............', '..........', '..
+086d: ................', '..........', '............'];.  var cDate = 
+08ad: new Date(currentTime);....  .  $("#yearContainer").html(cDate.ge
+08ed: tFullYear());.  $("#dayContainer").html(days[cDate.getDay()]);. 
+092d:  $("#monthContainer").html(months[cDate.getMonth()]);.  $("#date
+096d: Container").html(cDate.getDate());.  $("#days").html(initCal({  
+09ad:        .    dayElement: "div",.    dayClass: "cell",.    todayCl
+09ed: ass: "cday",.    weekendClass: "weekend".  }));.    .  drawClock
+0a2d: ();   .</script>  .</div> .<div class="block" id="6">.<div id="s
+0a6d: inoptik">.<section>.<header class="clearfix">.<h1>.<a target="_b
+0aad: lank" href="http://sinoptik.bg">..............</a>.</h1>.<a targ
+0aed: et="_blank" href="http://sinoptik.bg" class="siteLink">Sinoptik.
+0b2d: bg</a>.<div class="targetholder medium">..</div>.</header>.<div 
+0b6d: id="sinoptikContent">.<div class="info">.<div class="left" id="c
+0bad: urrentCity">..</div>.<a class="right" target="_blank">10-.......
+0bed: ..... ................</a>.</div>.<div class="infoMore">.<ul>.<l
+0c2d: i id="w100727011">..........</li>.<li id="w100732770">..........
+0c6d: ..</li>.<li id="w100733722">..............</li>.<li id="w3070000
+0cad: 06">.......... ........</li>.<li id="w100728193">..............<
+0ced: /li>.<li id="w100727523">........</li>.<li id="w100727329">.....
+0d2d: .....</li>.<li id="w305021306">............</li>.<li id="w100726
+0d6d: 050">..........</li>.<li id="w100728203">............</li>.<li i
+0dad: d="w100727447">..................</li>.<li id="w100733055">.....
+0ded: .........</li>.</ul>.<div id="citySearch">.<div id="lHolder">..<
+0e2d: /div>.<input type="text" class="text defaultValue" title="......
+0e6d: ...... ........ .... ............, ................." />.<div cl
+0ead: ass="searchButton">..</div>.</div>.<div id="searchResults">.<spa
+0eed: n class="caption">..</span>.<br />.</div>.<br class="clear" />.<
+0f2d: /div>.<div id="sinoptikLinkHolder" class="clearfix"><a id="sinop
+0f6d: tikLink" target="_blank"></a><a id="sinoptikLinkToday" target="_
+0fad: blank"></a><a id="sinoptikLinkTomorrow" target="_blank"></a>.<di
+0fed: v id="sLoader">..</div>.</div>.<div class="infocell first">.<spa
+102d: n class="time">.. ..............</span>.<div class="image" style
+106d: ="background-repeat: no-repeat; background-position: 50% 50%;">.
+10ad: .</div>.<div class="digits">.<div class="gradus">.<span>..</span
+10ed: >.</div>.<div class="smallgradus">.......... ..
+<= Recv data, 1460 bytes (0x5b4)
+0000: ..: <span>..</span>.</div>.<div class="forecast">..</div>.</div>
+0040: .</div>.<div class="infocell">.<span class="time">........</span
+0080: >.<div class="image" style="background-repeat: no-repeat; backgr
+00c0: ound-position: 50% 50%;">..</div>.<div class="digits">.<div clas
+0100: s="smallgradus">.<span class="grey">..</span>..<strong>|</strong
+0140: >..<span>..</span>.</div>.<div class="forecast">..</div>.</div>.
+0180: </div>.<div class="infocell last">.<span class="time">........</
+01c0: span>.<div class="image" style="background-repeat: no-repeat; ba
+0200: ckground-position: 50% 50%;">..</div>.<div class="digits">.<div 
+0240: class="smallgradus">.<span class="grey">..</span>..<strong>|</st
+0280: rong>..<span>..</span>.</div>.<div class="forecast">..</div>.</d
+02c0: iv>.</div>.<span class="clear">..</span>.</div>.<script type="te
+0300: xt/javascript">.            $(function(){getCityInfo();});      
+0340:       .          </script>.</section>.</div>.</div><div class="b
+0380: lock" id="7">.<section>.<header class="clearfix">.<h1>.<a target
+03c0: ="_blank" href="http://pariteni.bg">............</a>.</h1>.<a ta
+0400: rget="_blank" href="http://pariteni.bg" class="siteLink">Pariten
+0440: i.bg</a>.<div class="targetholder pari">..</div>.</header>.<div 
+0480: id="pariteniContent">.<div id="pariteniLinks">.<a target="_blank
+04c0: " href="http://www.pariteni.bg/index.phtml?tid=40&amp;oid=193423
+0500: ">.............. ...... ........ ....-............ ............ 
+0540: .... .......... .... ................</a>.<br class="clear" />.<
+0580: a target="_blank" href="http://www.pariteni.bg/index
+<= Recv data, 4380 bytes (0x111c)
+0000: .phtml?tid=40&amp;oid=193413">.............. ............ ......
+0040:  ...... ............................ .. ................ </a>.<b
+0080: r class="clear" />.<a target="_blank" href="http://www.pariteni.
+00c0: bg/index.phtml?tid=40&amp;oid=193403">.......... .. ............
+0100: .. .......... .............. </a>.<br class="clear" />.</div>.<d
+0140: iv id="currency">.<div class="toprow">.<a href="http://www.parit
+0180: eni.bg/?tid=20&amp;oid=260" target="_blank">.............. .....
+01c0: .........</a>..<time>- 01.03.2016</time>.</div>.<div class="tabl
+0200: e">.<div class="captions">.<div class="first">............</div>
+0240: .<div>........</div>.<div class="last">.... 1 ......</div>.</div
+0280: >.<div class="currencyrow">.<div class="first">USD</div>.<div cl
+02c0: ass="up">.<u>1.79632</u>.</div>.<div class="last">.<u>0.556694</
+0300: u>.</div>.<div class="first">EUR</div>.<div>.<u>1.95583</u>.</di
+0340: v>.<div class="last">.<u>0.511292</u>.</div>.<div class="first">
+0380: CHF</div>.<div class="up">.<u>1.79204</u>.</div>.<div class="las
+03c0: t">.<u>0.558023</u>.</div>.<div class="first">GBP</div>.<div cla
+0400: ss="up">.<u>2.48897</u>.</div>.<div class="last">.<u>0.401773</u
+0440: >.</div>.</div>.</div>.</div>.</div>.</section>.</div><div class
+0480: ="block" id="8">.<div id="astro">.<section>.<header class="clear
+04c0: fix">.<h1>.<a target="_blank" href="http://edna.bg/horoskopi">..
+0500: ................</a>.</h1>.<a target="_blank" href="http://edna.
+0540: bg/horoskopi" class="
+0557: 1000
+055d: siteLink">Edna.bg/horoskopi</a>.<div class="targetholder astro">
+059d: ..</div>.</header>.<div id="astroContent">.<div class="info">.<d
+05dd: iv class="left">.<div>........</div>..<span>(.<span class="start
+061d: Date">20.02</span>-.<span class="endDate">20.03</span>)</span>.<
+065d: /div>.<a target="_blank" class="right" href="http://www.edna.bg/
+069d: horoskopi/ribi/mesechen">..............</a>.</div>.<div class="i
+06dd: nfoMore" style="display: none;">.<ul>.<li id="z1">........</li>.
+071d: <li id="z4">......</li>.<li id="z7">..........</li>.<li id="z10"
+075d: >..............</li>.<li id="z2">..........</li>.<li id="z5">...
+079d: ...</li>.<li id="z8">................</li>.<li id="z11">........
+07dd: ......</li>.<li id="z3">................</li>.<li id="z6">......
+081d: ..</li>.<li id="z9">..............</li>.<li id="z12" class="sele
+085d: cted">........</li>.</ul>.</div>.<div id="infoHolder"><a class="
+089d: image" target="_blank" href="http://www.edna.bg/horoskopi/ribi/d
+08dd: neven" style="background-repeat:no-repeat;background-position: 5
+091d: 0% 50%;background-image:url('http://img.abv.bg/homepage/astro/12
+095d: .png');"></a><p>........ .... ...... .... ........ .......... ..
+099d: .......... .... ................ ............ .............. ...
+09dd: . ............. .... .... .............. ......-........ .... ..
+0a1d: .................... .... .................. .... ............, 
+0a5d: .... ...................... .. .................. .... .. .... .
+0a9d: ... .................. .......... .... ..................... ...
+0add: ......... .. .... .......... ........ .. ............ .. .. ....
+0b1d: .........., .... .......... ........ .... ........ .... .... ...
+0b5d: ............ .... .... .................. .... ............ ....
+0b9d: ......, ...... .......... .............., .... .......... ......
+0bdd: .................... .. ...... ...... ........ .... .... .......
+0c1d: ..........</p>.</div>.<span class="clear">..</span>.</div>.</sec
+0c5d: tion>.</div>.</div>
+0c72:         </div>
+0c82:       <br class="clear" />
+0c9e:     </div>
+0caa:       
+0cb2:   </div> 
+0cbd:   
+0cc1:   <!--\SITE CONTENT-->
+0cd9:   <!--FOOTER--> 
+0ceb:   
+0cef:   <footer>
+0cfb:     <div id="footerInner">
+0d17:       <ul>
+0d23:         <li>
+0d31:           <span>.... ......................</span>
+0d65:           <p>
+0d74:           <a target="_blank" href="http://abv.bg">...... .......
+0db4: .</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="http://do
+0df4: x.bg">DOX</a><br><a target="_blank" href="http://apps.abv.bg">..
+0e34: .... .... ........ ............</a><br><a target="_blank" href="
+0e74: http://host.bg/">Host</a>
+0e8f:           </p>
+0e9f:         </li>
+0eae:         <li>
+0ebc:           <span>.... ..............</span>
+0ee8:           <p>
+0ef7:           <a target="_blank" href="http://gbg.bg">..........</a>
+0f37: &nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="http://carmark
+0f77: et.bg/">....................</a><br><a target="_blank" href="htt
+0fb7: p://izgodnioferti.bg/">.............. ............</a><br><a tar
+0ff7: get="_blank" href="http://www.sravni.bg">............</a>
+1032:           </p>
+1042:         </li>
+1051:         <li>
+105f:           <span>.... .... ....................</span>
+1096:           <p>
+10a5:           <a target="_blank" href="http://vesti.bg">............
+10e5: </a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="h
+<= Recv data, 2920 bytes (0xb68)
+0000: ttp://gong.bg">..........</a><br><a target="_blank" href="http:/
+0040: /pariteni.bg">........</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_b
+0080: lank" href="http://sinoptik.bg">..............</a><br><a target=
+00c0: "_blank" href="http://edna.bg">.... ............</a>
+00f6:           </p>
+0106:         </li>
+0115:         <li>
+0123:           <span>.... .... ....................</span>
+015a:           <p>            
+0175:           <a target="_blank" href="http://vbox7.com">..........<
+01b5: /a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="http://vgam
+01f5: es.bg">........</a><br><a target="_blank" href="http://vmusic.bg
+0235: ">............</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" hr
+0275: ef="http://vcards.bg">................</a>
+02a1:           </p>
+02b1:         </li>
+02c0:       </ul>
+02cd:       <div class="separator"></div>
+02f2:       <div class="corpLinks">
+0311:         <a target="_blank" href="http://www.netinfocompany.bg/me
+0351: dia-kit/abvbg-69">.... ..............</a>&nbsp;&nbsp;|&nbsp;&nbs
+0391: p;<a target="_blank" href="http://www.adwise.bg/promo/">Adwise .
+03d1: .............</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" hre
+0411: f="http://www.netinfocompany.bg/about-company">.
+0443: c75
+0448: ... ......</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="
+0488: http://www.netinfocompany.bg/portfolio">..................</a><b
+04c8: r /><a target="_blank" href="https://passport.abv.bg/app/profile
+0508: s/sendtosupport/form">............ ....</a>&nbsp;&nbsp;|&nbsp;&n
+0548: bsp;<a target="_blank" href="http://help.abv.bg">..........</a>&
+0588: nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="http://blog.abv
+05c8: .bg/">........</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" hr
+0608: ef="https://passport.abv.bg/terms.html">........ ..............<
+0648: /a>
+064d:         <br /><a href="http://mobile.abv.bg/" target="_blank">..
+068d: ............ ....................</a><br /><br />
+06c0:         <p>.. 1999-2016 ...... ........ .... <a target="_blank" 
+0700: href="http://www.netinfocompany.bg/privacy">............ .......
+0740: ... .................</a></p>
+075f:       </div>
+076d:       <br class="clear" />
+0789:     </div>
+0795: ....<!-- logos in footer begin -->
+07b9: ....<div class="footer_logos">
+07d9: ......<a href="http://www.netinfocompany.bg/" target="_blank"><i
+0819: mg src="http://m.netinfo.bg/temp/new_logos_NetInfo_MTG/netinfo_l
+0859: ogo_new_footer.png" class="netinfoLogo" /></a>
+0889: ......<a href="http://www.mtg.se/" target="_blank"><img src="htt
+08c9: p://m.netinfo.bg/temp/new_logos_NetInfo_MTG/MTG_logo_footer2.png
+0909: " height="18" class="mtgLogo" /></a>
+092f: ......<br class="clear" />
+094b: ....</div>
+0957: ....<!-- logos in footer end -->    
+097d:   </footer>
+098a:   <img id="countPx" src="//img.abv.bg/i/n/p.gif" style="display:
+09ca:  none;" width="1" height="1" />
+09eb:   <!--\FOOTER--> 
+09fe: </div>
+0a06: <!--\WRAPPER-->
+0a17: 
+0a19: <!-- Grabo and Sravni blocks, SAS banners -->
+0a48: <script src="http://img.abv.bg/AbvProductAds/abvAds_3.js?v=14568
+0a88: 34200426" type="text/javascript"></script>
+0ab4: <!-- /Grabo and Sravni blocks, SAS banners -->   
+0ae7: 
+0ae9: <!--COUNTERS -->
+0afb: <!-- (C)2000-2014 Gemius SA - gemiusAudience / abv.bg / Home Pag
+0b3b: e -->
+0b42: <script type="text/javascript">
+0b63: <!--/
+<= Recv data, 1372 bytes (0x55c)
+0000: /--><![CDATA[//><!--
+0016: var pp_gemius_identifier = 'pyM6ETuay1axb8mosdTjz6R..KfGoHBcgod0
+0056: mxirr8X.07';
+0064: // lines below shouldn't be edited
+0088: function gemius_pending(i) { window[i] = window[i] || function()
+00c8:  {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.len
+0108: gth]=arguments;};};
+011d: gemius_pending('gemius_hit'); gemius_pending('gemius_event'); ge
+015d: mius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event')
+019d: ;
+01a0: (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsBy
+01e0: TagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); g
+0220: t.setAttribute('async','async');
+0242: gt.setAttribute('defer','defer'); gt.src=l+'://gabg.hit.gemius.p
+0282: l/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(
+02c2: document,'script');
+02d7: //--><!]]>
+02e3: </script>
+02ee: 
+02f0: <!-- Google Tag Manager -->
+030d: <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM
+034d: -P74CWJ" 
+0358: height="0" width="0" style="display:none;visibility:hidden"></if
+0398: rame></noscript>
+03aa: <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start
+03ea: ':
+03ee: new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagNa
+042e: me(s)[0],
+0439: j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j
+0479: .src=
+0480: '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insert
+04c0: Before(j,f);
+04ce: })(window,document,'script','dataLayer','GTM-P74CWJ');</script>
+050f: <!-- /Google Tag Manager -->
+052d: 
+052f: <!-- /COUNTERS -->
+0543: 
+0545: </body>
+054e: </html>
+0557: 0
+055a: 
+== Info: Connection #0 to host www.abv.bg left intact

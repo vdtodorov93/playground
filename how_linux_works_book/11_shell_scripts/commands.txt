@@ -7,4 +7,9 @@ $@   #all arguments
 $0   # script name
 $$   #process id
 $?   #exit code of last command
+[ -f file ] # check is file regular
+-e #return true if a file exists
+-s #true if a file is not empty
+-z #is string empty
+-n #is string not empty
 
