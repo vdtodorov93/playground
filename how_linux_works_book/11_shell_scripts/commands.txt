@@ -13,3 +13,19 @@ $?   #exit code of last command
 -z #is string empty
 -n #is string not empty
 
+$() #substitute variable. e.g:
+FLAGS=$(grep ^flags /proc/cpuinfo | sed 's/.*://' | head -1)
+trap "rm -f $TMPFILE1 $TMPFILE2; exit 1" INT   #trap catches signal interrupts and handles them.
+
+basename example.html .html #returns example
+basename /usr/local/bin/example #returns example
+
+expr 1 + 2 #=3
+exec #executes a program, calling exec() system call
+
+*SUBSHELLS*
+(cd asd; uglyprogram) #create subshell between () and execute script
+
+. config.sh  #runs the script, but without creating subshell
+read var #reads from command line and stores in $read
+

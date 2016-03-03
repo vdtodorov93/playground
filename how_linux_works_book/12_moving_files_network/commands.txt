@@ -1,0 +1,5 @@
+python -m SimpleHTTPServer #creates fileserver on port 8000 with root current dir
+scp -r #copy remote directory. For more performence use tar pipe:
+tar cBvf - directory | ssh remote_host tar xBvpf -
+rsync #synchroniziation system
+

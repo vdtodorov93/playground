@@ -1,0 +1,15 @@
+.bash_profile, .bash_login, .profile #for login shells
+
+echo $0 #returns the shell; if result is "-" it is login shell
+#IN BASHRC:
+PS1='\W \$' #turns the prompt to *curr dir*$
+EDITOR=vim
+VISUAL=vim
+PAGER=less
+export PATH EDITOR VISUAL PAGER
+umask 022 #gives by default other users only read rights
+
+. $HOME/.bashrc #in .bash_profile makes connection to .bashrc
+
+
+
